@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="MemoryTreasure.controller_2"
+            prefHeight="80.0" prefWidth="400.0" style="-fx-background-color: black">
+
+    <content>
+
+        <GridPane>
+
+            <Label text="Add directory path:" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"
+                    textFill="white">
+                <font>
+                    <Font name="System italic" size="15" />
+                </font>
+            </Label>
+
+            <TextField fx:id = "textField_directory" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="3"
+                    minWidth="380"/>
+
+        </GridPane>
+
+    </content>
+
+</DialogPane>
